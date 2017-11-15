@@ -1,48 +1,25 @@
 body{
-	width: 940px;
-	margin: auto;
-	text-align: center;
+	font-size: 18px;
+	margin:auto;
 }
 
 header{
-	border: 2px solid black;
-	padding: 2px;
-}
-/* Position de l'image à gauche */
-.image{
-	display:block;
-	width: 50px;
-	height: 50px;
-	margin-left: 0px;
-	border: 3px solid black;
-	padding: 2px;
+	background-color: #000;
 }
 
-/* Position menu à droite*/
-.lien{
-	text-align: right;
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	width: 50%
+	margin:auto;
 }
-/* Ajout de bordure pour les liens */
+
 .lien a{
-	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
 }
 
-/*Position du logo*/
-.logo{
-	display: block;
-	width: 100px;
-	height: 100px;
-	border : 3px solid black;
-	margin: auto;
-
-}
-
-footer{
-	border: 2px solid black;
-
-}
-
-.lien-reseaux{
+.reseaux{
+	background-color: #000;
 	text-align: right;
-	padding: 2px;
 }
