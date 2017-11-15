@@ -10,16 +10,47 @@ header{
 .header-container{
 	display: flex;
 	justify-content: space-between;
-	width: 50%
 	margin:auto;
+	padding : 1em;
 }
 
-.lien a{
+.header-container img{
+	display: block;
+	width: 25%;
+	height: 25%;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+.lien ul{
 	display: flex;
 	justify-content: space-between;
+	line-height: 8;
+}
+.lien li a {
+	padding-right: 1em;
+	color: #fff;
+	
+}
+
+.section-container{
+	text-align: center;
+}
+
+.section-container img{
+	margin-top: 1em;
+	width: 50%;
 }
 
 .reseaux{
 	background-color: #000;
-	text-align: right;
+	padding: 1em;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	line-height: -1;
+}
+
+.lien-reseaux li a{
+	color: #fff;
 }
